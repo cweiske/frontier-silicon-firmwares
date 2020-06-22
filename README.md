@@ -44,6 +44,8 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0234`: Peaq PDR350BT
 - `FS2026-0500-0237`: Roberts Stream 104
 - `FS2026-0500-0240`: TechniSat DigitRadio 520
+- `FS2026-0500-0259`: Silvercrest SMRS30A1
+- `FS2026-0500-0260`: Silvercrest SMRS35A1
 - `FS2026-0500-0277`: Medion P85111 (MD 87295) [2015]
 - `FS2026-0500-0286`: Technisat DigitRadio 580
 - `FS2026-0500-0373`: Hama DIR3100
@@ -55,6 +57,8 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0499`: Albrecht DR 890 CD Internetradio
 - `FS2026-0500-0528`: Hama IR350
 - `FS2026-0500-0601`: Medion P85111 (MD 87295) [2017]
+- `FS2026-0500-0643`: Ruark Audio MRx
+
 
 Name Parts:
 
