@@ -58,6 +58,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0528`: Hama IR350
 - `FS2026-0500-0601`: Medion P85111 (MD 87295) [2017]
 - `FS2026-0500-0643`: Ruark Audio MRx
+- `FS2026-0500-0805`: Medion P85289 (MD 88289)
 
 
 Name Parts:
