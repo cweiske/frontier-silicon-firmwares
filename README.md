@@ -68,6 +68,8 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0805`: Medion P85289 (MD 88289)
 
 - `FS2340-0000-0158`: Karcher DAB 7000i
+- `FS2340-0000-0061`: Blaupunkt Napoli (IRD 400)
+- `FS2340-0000-0025`: Hama DIT2006BT
 
 
 Name Parts:
@@ -85,7 +87,7 @@ URL:
 https://update.wifiradiofrontier.com/FindUpdate.aspx?mac=0022616C4223&customisation=ir-mmi-FS2026-0500-0084&version=2.11.16.EX69632-2A9
 
 Answer:
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <updates>
   <software customisation="ir-mmi-FS2026-0500-0084"
@@ -106,6 +108,33 @@ Answer:
 
 All parameters except `f` are optional
 http://update.wifiradiofrontier.com/Update.aspx?f=/updates/ir-mmi-FS2026-0500-0084.2.11.16.EX69632-2A10.isu.bin
+
+## FS2340 notes
+
+It seems that recently Frontier Silicon changed download URI and firmware format.
+
+New update URL is like `https://update.wifiradiofrontier.com/sr/FindUpdate.aspx?mac=123&customisation=ir-cui-FS2340-0000-0061&version=V4.2.10.4ad838-1B18` and reply is
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<updates>
+  <software customisation="ir-cui-FS2340-0000-0061"
+            version="V4.5.6.9526d3-2A1">
+    <copyright>Copyright 2020 Frontier Silicon Ltd</copyright>
+    <download>https://update.wifiradiofrontier.com/sr/Update.aspx?c=ir-cui-FS2340-0000-0061&amp;m=123&amp;v=V4.2.10.4ad838-1B18&amp;t=Cust-Dir&amp;n=V4.5.6.9526d3-2A1&amp;f=/srupdates/ir-cui-FS2340-0000-0061/ir-cui-FS2340-0000-0061_V4.5.6.9526d3-2A1.isu.bin</download>
+    <mandatory>false</mandatory>
+    <md5>d47c2e61efcef905ec8bb1c258e4fb9a</md5>
+    <product>Internet Radio</product>
+    <size>3244413</size>
+    <summary>Copyright 2007,2008,2009 Frontier Silicon Ltd</summary>
+    <vendor>Frontier Silicon</vendor>
+  </software>
+</updates>
+```
+
+So download url is `https://update.wifiradiofrontier.com/sr/Update.aspx?f=/srupdates/ir-cui-FS2340-0000-0061/ir-cui-FS2340-0000-0061_V4.5.6.9526d3-2A1.isu.bin`. This way its also possible to construct url for devices w/o actual update, e.g.  `https://update.wifiradiofrontier.com/sr/Update.aspx?f=/srupdates/ir-cui-FS2340-0000-0025/ir-cui-FS2340-0000-0025_V4.5.10.46f70b-1A13.isu.bin` for the Hama DIT2006BT Radio.
+
+Another difference is that now firmware is encrypted and after `enco` line some unknown binary content is following. Must likely key to decrypt the firmware is placed inside the device during production.
 
 ## Update script
 Run `update.py` to automatically check for updates of existing firmware files.
