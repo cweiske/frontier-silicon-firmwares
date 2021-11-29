@@ -73,6 +73,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0061`: Blaupunkt Napoli (IRD 400)
 - `FS2340-0000-0158`: Karcher DAB 7000i
 
+- `FS5332-0000-0007`: JBL Playlist
 
 Name Parts:
 
@@ -85,10 +86,12 @@ Most names taken from
 http://iradioforum.net/forum/index.php?topic=2099.msg18986#msg18986
 
 ## Example to check for available update
+
 URL:
 https://update.wifiradiofrontier.com/FindUpdate.aspx?mac=0022616C4223&customisation=ir-mmi-FS2026-0500-0084&version=2.11.16.EX69632-2A9
 
 Answer:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <updates>
@@ -106,16 +109,14 @@ Answer:
 </updates>
 ```
 
-
 ## Example for Download URL
 
 All parameters except `f` are optional
 http://update.wifiradiofrontier.com/Update.aspx?f=/updates/ir-mmi-FS2026-0500-0084.2.11.16.EX69632-2A10.isu.bin
 
-
 ## Update script
-Run `update.py` to automatically check for updates of existing firmware files.
 
+Run `update.py` to automatically check for updates of existing firmware files.
 
 ## FS2340 notes
 
