@@ -65,6 +65,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0487`: Silvercrest SMRS18A1
 - `FS2026-0500-0499`: Albrecht DR 890 CD Internetradio
 - `FS2026-0500-0517`: Silvercrest SIRD 14 C3
+- `FS2026-0500-0522`: Hama DIR3100MS
 - `FS2026-0500-0528`: Hama IR350
 - `FS2026-0500-0549`: Medion MD 87805
 - `FS2026-0500-0577`: Medion MD 87990
