@@ -59,6 +59,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0373`: Hama DIR3100
 - `FS2026-0500-0379`: Medion P85105 (MD 87505) [2016]
 - `FS2026-0500-0388`: Silvercrest SIRD 14C2
+- `FS2026-0500-0442`: Auna Connect CD
 - `FS2026-0500-0461`: NUMAN One 2.1
 - `FS2026-0500-0477`: Medion P85105 (MD 87505)
 - `FS2026-0500-0485`: Silvercrest SMRS30A1
