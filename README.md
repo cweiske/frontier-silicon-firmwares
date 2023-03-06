@@ -77,7 +77,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0710`: Medion MD 87805
 - `FS2026-0500-0770`: PEAQ PDR261BT-B [2019]
 - `FS2026-0500-0783`: Teufel Radio 3sixty [2020?]
-- `FS2026-0500-0789`: Sonoro Stream ???
+- `FS2026-0500-0789`: Sonoro Stream (2020)
 - `FS2026-0500-0795`: Sonoro Prestige
 - `FS2026-0500-0802`: Technisat DigitRadio 631
 - `FS2026-0500-0805`: Medion P85289 (MD 88289)
