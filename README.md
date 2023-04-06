@@ -74,6 +74,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0601`: Medion P85111 (MD 87295) [2017]
 - `FS2026-0500-0631`: VR-Radio ZX-1680-675
 - `FS2026-0500-0643`: Ruark Audio MRx
+- `FS2026-0500-0653`: Technisat 120IR
 - `FS2026-0500-0659`: Sonoro STREAM SO-410, Firmware v2.x [2018] ([manual](https://sonoro.com/wp-content/uploads/2022/09/STREAM_SO-410_Operating_Manual_R1.7_6_languages_Rev1.6.pdf))
 - `FS2026-0500-0710`: Medion MD 87805
 - `FS2026-0500-0770`: PEAQ PDR261BT-B [2019]
@@ -86,6 +87,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 
 - `FS2340-0000-0025`: Hama DIT2006BT
 - `FS2340-0000-0061`: Blaupunkt Napoli (IRD 400)
+- `FS2340-0000-0087`: Grundig DTR7000
 - `FS2340-0000-0093`: Philips TAR8805 [2020]
 - `FS2340-0000-0117`: Philips TAM8905 [2020]
 - `FS2340-0000-0142`: Grundig DSB 980 [2020]
