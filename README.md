@@ -131,6 +131,20 @@ There must be a way to extract the actual firmware from the update file,
 but we have not found it yet.
 
 
+### Firmware preparation: `.sap.bin` creation
+The `.isu.bin` file cannot be used as firmware update - some bytes need to be
+stripped off the beginning.
+
+One user reports that the first bytes up to `0x7B` must be removed from
+the `ir-mmi-FS2026-0500-0653.2.11.19.EX70719-1B2.isu.bin` to get a valid
+`.sap.bin` update file.
+
+The `.sap.bin` update file thus begins with
+```
+05 00 10 00 10 A8 0A 00 00 B0 0A 00 06 02 1F 2B
+```
+
+
 ### Web interface
 Some radios (e.g. `FS2026-0500-0487`) have a firmware upload form
 on their web interface.
@@ -141,6 +155,8 @@ When renaming the `.isu.bin` to `.sap.bin` and uploading it, an error will be
 shown:
 
 > FILE CHECK FAILED
+
+Uploading a prepared `.sap.bin` file (see above) will probably work.
 
 
 ### dfu-util
@@ -155,16 +171,22 @@ The PC lists the radio as following USB device then:
 [dfu-util](https://dfu-util.sourceforge.net/index.html) can then be used
 to upload the firmware.
 
-Unfortunately the downloaded `.isu.bin` files cannot be used directly!
-Some bytes need to be removed before that works.
-The same process as mentioned in "Chip flashing" is known to work here, too.
-
-
 DFU mode available on:
 - `FS2026-0500-0388`
+- `FS2026-0500-0653`
 
 DFU mode *not* available on:
 - `FS2026-0500-0286`
+
+
+At first, the `.isu.bin` must be converted to a `.sap.bin` update file - see above.
+
+Steps to flash new firmware:
+
+1. Radio must show "Waiting for PC wizard"
+2. Connect radio to PC via USB
+3. Check that the radio is found with `dfu-util -l`
+4. Upload firmware to radio: `dfu-util -d 10a4:bf8d -U myfirmware.sap.bin`
 
 
 ### Chip flashing
