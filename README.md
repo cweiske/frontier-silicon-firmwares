@@ -44,6 +44,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0138`: Sangean WFR-28
 - `FS2026-0500-0162`: Revo Pixis RX
 - `FS2026-0500-0178`: Philips AE800
+- `FS2026-0500-0212`: Auna Connect 150
 - `FS2026-0500-0214`: Denver IR100
 - `FS2026-0500-0224`: Auna KR-200 [2015]
 - `FS2026-0500-0228`: Goodmans Heritage Connect
