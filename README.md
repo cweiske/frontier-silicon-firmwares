@@ -74,6 +74,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0549`: Medion MD 87805
 - `FS2026-0500-0577`: Medion MD 87990
 - `FS2026-0500-0601`: Medion P85111 (MD 87295) [2017]
+- `FS2026-0500-0630`: Auna Harvard
 - `FS2026-0500-0631`: VR-Radio ZX-1680-675
 - `FS2026-0500-0643`: Ruark Audio MRx
 - `FS2026-0500-0653`: Technisat 120IR
