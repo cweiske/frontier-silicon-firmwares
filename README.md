@@ -93,7 +93,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2340-0000-0087`: Grundig DTR7000
 - `FS2340-0000-0093`: Philips TAR8805 [2020]
 - `FS2340-0000-0117`: Philips TAM8905 [2020]
-- `FS2340-0000-0134`: Philips TAM6805/20
+- `FS2340-0000-0134`: Philips TAM6805/10
 - `FS2340-0000-0142`: Grundig DSB 980 [2020]
 - `FS2340-0000-0146`: Grundig DTR 6000 X [2020]
 - `FS2340-0000-0147`: Grundig DTR 5000 X (GIR1120) [2020-03]
