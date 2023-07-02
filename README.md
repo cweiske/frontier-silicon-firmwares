@@ -59,6 +59,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0285`: Noxon dRadio 110
 - `FS2026-0500-0286`: Technisat DigitRadio 580
 - `FS2026-0500-0308`: Pure Evoke C-F6
+- `FS2026-0500-0364`: Roberts RS1
 - `FS2026-0500-0373`: Hama DIR3100
 - `FS2026-0500-0379`: Medion P85105 (MD 87505) [2016]
 - `FS2026-0500-0388`: Silvercrest SIRD 14C2
