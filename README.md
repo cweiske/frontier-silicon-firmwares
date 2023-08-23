@@ -105,6 +105,8 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2026-0500-0805`: Medion P85289 (MD 88289)
 - `FS2026-0500-0841`: Kathrein DAB+ 10 tower
 
+- `FS2026-0600-0002`: Hama IT900MBT [2019] ([manual](https://de.hama.com/webresources/article-documents/00054/man/00054861man_cs_da_de_el_en_es_fi_fr_hu_it_nl_no_pl_pt_ro_ru_sk_sv_tr.pdf))
+
 - `FS2027-0000-0358`: Philips AE9011/02
 
 - `FS2028-0000-0016`: Revo Axis
