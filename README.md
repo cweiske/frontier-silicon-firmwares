@@ -128,6 +128,7 @@ Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/
 - `FS2340-0000-0146`: Grundig DTR 6000 X [2020]
 - `FS2340-0000-0147`: Grundig DTR 5000 X (GIR1120) [2020-03]
 - `FS2340-0000-0158`: Karcher DAB 7000i
+- `FS2340-0000-0170`: LeMega IR4
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
 - `FS2340-0000-0194`: Kenwood M-7000S-B [2021]
 - `FS2340-0000-0195`: Kenwood M-9000S-B
@@ -221,6 +222,7 @@ to upload the firmware.
 DFU mode available on:
 - `FS2026-0500-0388`
 - `FS2026-0500-0653`
+- `FS2340-0000-0170`
 
 DFU mode *not* available on:
 - `FS2026-0500-0286`
@@ -235,6 +237,23 @@ Steps to flash new firmware:
 3. Check that the radio is found with `dfu-util -l`
 4. Upload firmware to radio: `dfu-util -d 10a4:bf8d -U myfirmware.sap.bin`
 
+
+### FS2340: Recover "Waiting for PC wizard" using dfu-util
+A user reported success in repairing a non-working radio using `dfu-util`.
+The radio was not booting normally and just showed "Waiting for PC wizard".
+
+1. Attach radio via regular USB cable
+  ```
+  dfu-util -l
+  Found DFU: [10a4:c2aa] ver=0000, devnum=1, cfg=1, intf=0, path="0-1", alt=0, name="UNKNOWN", serial="00000001"
+  ````
+2. Load firmware from radio: `dfu-util -U radio_firmware.bin`
+3. Identify radio firmware version by opening `radio_firmware.bin` in a hex editor. In this case the radio binary started with the string "ir-cui-FS2340-0000-0170_V4.5.7.e518da-1A10.bin"
+4. Download firmware from frontier silicon servers based on the instructions in this repository
+5. Convert downloaded `.isu.bin` to a `.sap.bin` update file - see above section "Firmware preparation". In this case all bytes before the "ir-cui..." string have been removed.
+6. Upload firmware to radio: `dfu-util -D ir-cui-FS2340-0000-0170_V4.5.7.e518da-1A10.sap.bin`
+
+After turning the radio off and on again, it booted correctly.
 
 ### Chip flashing
 A user reports that he downloaded the firmware from his non-working radio
