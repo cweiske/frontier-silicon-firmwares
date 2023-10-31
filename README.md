@@ -183,6 +183,7 @@ but we have not found it yet.
 The `.isu.bin` file cannot be used as firmware update - some bytes need to be
 stripped off the beginning.
 
+#### FS2026
 One user reports that the first bytes up to `0x7B` must be removed from
 the `ir-mmi-FS2026-0500-0653.2.11.19.EX70719-1B2.isu.bin` to get a valid
 `.sap.bin` update file.
@@ -190,6 +191,15 @@ the `ir-mmi-FS2026-0500-0653.2.11.19.EX70719-1B2.isu.bin` to get a valid
 The `.sap.bin` update file thus begins with
 ```
 05 00 10 00 10 A8 0A 00 00 B0 0A 00 06 02 1F 2B
+```
+
+#### FS2340
+Removing the first bytes up to `0x7B` works here, too.
+
+The generated `.sap.bin` file then begins with `ir-cui-FS2340`,
+which in hex is
+```
+69 72 2D 63 75 69 2D 46 53 32 33 34 30
 ```
 
 
