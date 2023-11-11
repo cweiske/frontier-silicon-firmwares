@@ -1,8 +1,17 @@
 # Frontier Silicon firmware binaries
 
+A list of devices using Frontier Smart chipsets, binary firmware files
+and information about flashing those firmwares.
+
 Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
-Firmware Analysis: https://github.com/MatrixEditor/frontier-smart-api/blob/main/docs/firmware-2.0.md
+
+## Related links
+
+- Firmware Analysis: https://matrixeditor.github.io/fsapi-tools/firmware-analysis.html
+- Frontier Smart api + tools: https://github.com/MatrixEditor/fsapi-tools
+- Alternative radio server API implementation: https://github.com/KIMB-technologies/Radio-API
+
 
 ## Known radios
 - ? `arts.ven6-jupiter6.1`: Tevion IWR 294 (2009)
