@@ -1,7 +1,7 @@
 # Frontier Silicon firmware binaries
 
-A list of devices using Frontier Smart chipsets, binary firmware files
-and information about flashing those firmwares.
+A list of internet radio devices using Frontier Smart chipsets,
+binary firmware files and information about flashing those firmwares.
 
 Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
