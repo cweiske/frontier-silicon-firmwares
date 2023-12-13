@@ -84,6 +84,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0379`: Medion P85105 (MD 87505) [2016]
 - `FS2026-0500-0388`: Silvercrest SIRD 14C2
 - `FS2026-0500-0407`: Hama DIT2000M
+- `FS2026-0500-0408`: Hama DIT1000MBT
 - `FS2026-0500-0442`: Auna Connect CD
 - `FS2026-0500-0445`: Technisat DigitRadio 140
 - `FS2026-0500-0452`: ALDI LIFE IWR 271
