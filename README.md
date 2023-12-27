@@ -56,6 +56,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0127`: Noxon Nova M
 - `FS2026-0500-0138`: Sangean WFR-28
 - `FS2026-0500-0144`: Roberts Stream 10
+- `FS2026-0500-0150`: SilverCrest SIRD 14
 - `FS2026-0500-0162`: Revo Pixis RX
 - `FS2026-0500-0178`: Philips AE800
 - `FS2026-0500-0191`: Digitradio 110IR7
