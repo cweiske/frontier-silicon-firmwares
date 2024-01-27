@@ -55,6 +55,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0115`: Hama HiFi Tuner DIT2000
 - `FS2026-0500-0127`: Noxon Nova M
 - `FS2026-0500-0138`: Sangean WFR-28
+- `FS2026-0500-0142`: Medion Life P85044 (MD87180)
 - `FS2026-0500-0144`: Roberts Stream 10
 - `FS2026-0500-0150`: SilverCrest SIRD 14
 - `FS2026-0500-0162`: Revo Pixis RX
@@ -275,7 +276,7 @@ The radio was not booting normally and just showed "Waiting for PC wizard".
   ```
   dfu-util -l
   Found DFU: [10a4:c2aa] ver=0000, devnum=1, cfg=1, intf=0, path="0-1", alt=0, name="UNKNOWN", serial="00000001"
-  ````
+  ```
 2. Load firmware from radio: `dfu-util -U radio_firmware.bin`
 3. Identify radio firmware version by opening `radio_firmware.bin` in a hex editor. In this case the radio binary started with the string "ir-cui-FS2340-0000-0170_V4.5.7.e518da-1A10.bin"
 4. Download firmware from frontier silicon servers based on the instructions in this repository
