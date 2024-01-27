@@ -209,6 +209,9 @@ The `.sap.bin` update file thus begins with
 05 00 10 00 10 A8 0A 00 00 B0 0A 00 06 02 1F 2B
 ```
 
+Another user reported that for a ``FS2026-0500-0277``, the first bytes
+up to ``0xE9`` had to be removed.
+
 #### FS2340
 Removing the first bytes up to `0x7B` works here, too.
 
