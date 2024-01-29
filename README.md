@@ -133,6 +133,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0061`: Blaupunkt Napoli (IRD 400)
 - `FS2340-0000-0087`: Grundig DTR7000
 - `FS2340-0000-0093`: Philips TAR8805 [2020]
+- `FS2340-0000-0106`: Hama DIR355BT
 - `FS2340-0000-0117`: Philips TAM8905 [2020]
 - `FS2340-0000-0127`: Medion Life P85003 (MD 85008)
 - `FS2340-0000-0129`: Hama DIR150BT
