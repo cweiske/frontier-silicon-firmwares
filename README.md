@@ -10,6 +10,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 - Firmware Analysis: https://matrixeditor.github.io/fsapi-tools/firmware-analysis.html
 - Frontier Smart api + tools: https://github.com/MatrixEditor/fsapi-tools
+- Radio API documentation: https://github.com/flammy/fsapi/blob/master/FSAPI.md
 - Alternative radio server API implementation: https://github.com/KIMB-technologies/Radio-API
 
 
