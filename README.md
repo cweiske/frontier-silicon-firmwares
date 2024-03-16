@@ -147,6 +147,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0147`: Grundig DTR 5000 X (GIR1120) [2020-03]
 - `FS2340-0000-0158`: Karcher DAB 7000i
 - `FS2340-0000-0170`: LeMega IR4
+- `FS2340-0000-0176`: Pinell Supersound 101
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
 - `FS2340-0000-0194`: Kenwood M-7000S-B [2021]
 - `FS2340-0000-0195`: Kenwood M-9000S-B
