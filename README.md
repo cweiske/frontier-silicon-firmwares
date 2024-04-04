@@ -15,8 +15,10 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 
 ## Known radios
+### Venice 6
 - ? `arts.ven6-jupiter6.1`: Tevion IWR 294 (2009)
 
+### Venice 6.2
 - `FS2026-0200-0048`: Roberts Stream 83i
 - `FS2026-0200-0052`: Revival iStream
 - `FS2026-0200-0059`: Muvid IR 615
@@ -28,6 +30,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0200-0328`: Sangean DDR-62
 - `FS2026-0200-0329`: Lenco IR-2002
 
+### Venice 6.5
 - `FS2026-0500-0015`: Pinell Supersound II
 - `FS2026-0500-0020`: Renkforce IR-1600
 - `FS2026-0500-0027`: Medion Life P85023 (MD 86891)
@@ -123,17 +126,22 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0805`: Medion P85289 (MD 88289)
 - `FS2026-0500-0841`: Kathrein DAB+ 10 tower
 
+### Venice 6.6 (?)
 - `FS2026-0600-0002`: Hama IT900MBT [2019] ([manual](https://de.hama.com/webresources/article-documents/00054/man/00054861man_cs_da_de_el_en_es_fi_fr_hu_it_nl_no_pl_pt_ro_ru_sk_sv_tr.pdf))
 
+### FS2027
 - `FS2027-0000-0358`: Philips AE9011/02
 
+### FS2028
 - `FS2028-0000-0016`: Revo Axis
 - `FS2028-0000-0032`: ALDI MD 86250
 - `FS2028-0100-0002`: Albrecht DR 333
 
+### FS2052
 - `FS2052-0000-0297`: John Lewis Spectrum DAB Radio
 - `FS2052-0000-0639`: Roberts SportsDAB 5
 
+### Venice X
 - `FS2340-0000-0025`: Hama DIT2006BT
 - `FS2340-0000-0061`: Blaupunkt Napoli (IRD 400)
 - `FS2340-0000-0082`: KENWOOD CR-ST100S-W [2021]
@@ -163,9 +171,11 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0374`: Medion MD89289 [2022]
 - `FS2340-0000-0407`: Kenwood CR-ST700SCD
 
+### FS2415
 - `FS2415-0000-0374`: LeMega PR1
 - `FS2415-0000-0692`: Silvercrest 3W D4
 
+### Minuet
 - `FS5332-0000-0007`: JBL Playlist 150
 - `FS5332-0000-0024`: Blaupunkt MR 50 BK
 - `FS5332-0000-0044`: Marshall Woburn MultiRoom [2017]
