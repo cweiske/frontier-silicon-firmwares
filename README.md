@@ -198,14 +198,10 @@ Imagination Technologies META processor.
 
 
 ## Flashing the firmware
-None of the flashing methods described here work with the `.isu.bin`
-firmware files from this git repository.
-
-There must be a way to extract the actual firmware from the update file,
-but we have not found it yet.
-
-
 ### Firmware preparation: `.sap.bin` creation
+None of the flashing methods described here work with the `.isu.bin`
+firmware files from this repository.
+
 The `.isu.bin` file cannot be used as firmware update - some bytes need to be
 stripped off the beginning.
 
