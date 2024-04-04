@@ -80,6 +80,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0286`: Technisat DigitRadio 580
 - `FS2026-0500-0298`: Evoke F3
 - `FS2026-0500-0308`: Pure Evoke C-F6
+- `FS2026-0500-0309`: Technisat DigitRadio 600
 - `FS2026-0500-0310`: Hama HiFi Tuner DIT2010
 - `FS2026-0500-0328`: Blaupunkt IRD 30
 - `FS2026-0500-0364`: Roberts RS1
