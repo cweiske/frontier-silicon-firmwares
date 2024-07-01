@@ -172,6 +172,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0407`: Kenwood CR-ST700SCD
 
 ### FS2415
+- `FS2415-0000-0323`: Technisat Nordmende Transita 30
 - `FS2415-0000-0374`: LeMega PR1
 - `FS2415-0000-0692`: Silvercrest 3W D4
 
