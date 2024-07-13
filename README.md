@@ -156,6 +156,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0146`: Grundig DTR 6000 X [2020]
 - `FS2340-0000-0147`: Grundig DTR 5000 X (GIR1120) [2020-03]
 - `FS2340-0000-0158`: Karcher DAB 7000i
+- `FS2340-0000-0164`: Pure Elan Connect
 - `FS2340-0000-0170`: LeMega IR4
 - `FS2340-0000-0176`: Pinell Supersound 101
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
