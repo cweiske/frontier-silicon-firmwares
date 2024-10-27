@@ -182,6 +182,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS5332-0000-0007`: JBL Playlist 150
 - `FS5332-0000-0024`: Blaupunkt MR 50 BK
 - `FS5332-0000-0044`: Marshall Woburn MultiRoom [2017]
+- `FS5332-0000-0060`: Blaupunkt PMR 100
 - `FS5332-0000-0082`: Blaupunkt MR 100
 - `FS5332-0000-0093`: HK Enchant 1300
 - `FS5332-0000-0119`: Blaupunkt PVA 100
