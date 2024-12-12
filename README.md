@@ -165,6 +165,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0195`: Kenwood M-9000S-B
 - `FS2340-0000-0275`: Majority Homerton 2
 - `FS2340-0000-0286`: JVC RA-E981B [2021]
+- `FS2340-0000-0293`: Auna iTurner CD [2022]
 - `FS2340-0000-0301`: Hama DIR3300SBT
 - `FS2340-0000-0303`: Teufel Radio 3sixty [2020, color display]
 - `FS2340-0000-0329`: Sonoro STREAM SO-411, Firmware v4.x [2022] ([manual](https://sonoro.canto.de/direct/document/rleg9u4tfh73h55i112tr8em0o/gFYfNJoe-cac9YbB0gpxAW8gckw/original?content-type=application%2Fpdf&name=STREAM_SO-411_Operating_Manual_R22-01_R06_interaktiv.pdf))
