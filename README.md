@@ -126,6 +126,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0802`: Technisat DigitRadio 631
 - `FS2026-0500-0805`: Medion P85289 (MD 88289)
 - `FS2026-0500-0841`: Kathrein DAB+ 10 tower
+- `FS2026-0500-0864`: Technisat Imperial Dabman i550CD [2021]
 
 ### Venice 6.6 (?)
 - `FS2026-0600-0002`: Hama IT900MBT [2019] ([manual](https://de.hama.com/webresources/article-documents/00054/man/00054861man_cs_da_de_el_en_es_fi_fr_hu_it_nl_no_pl_pt_ro_ru_sk_sv_tr.pdf))
