@@ -108,6 +108,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0549`: Medion MD 87805
 - `FS2026-0500-0577`: Medion MD 87990
 - `FS2026-0500-0601`: Medion P85111 (MD 87295) [2017]
+- `FS2026-0500-0605`: HAMA DIR3500MCBT
 - `FS2026-0500-0612`: ALDI LIFE IWR 282
 - `FS2026-0500-0630`: Auna Harvard
 - `FS2026-0500-0631`: VR-Radio ZX-1680-675
