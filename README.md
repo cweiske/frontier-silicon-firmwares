@@ -145,6 +145,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 ### Venice X
 - `FS2340-0000-0006`: Grundig DKR 3000
+- `FS2340-0000-0024`: Philips TAPR802
 - `FS2340-0000-0025`: Hama DIT2006BT
 - `FS2340-0000-0061`: Blaupunkt Napoli (IRD 400)
 - `FS2340-0000-0082`: KENWOOD CR-ST100S-W [2021]
