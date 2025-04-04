@@ -108,6 +108,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0549`: Medion MD 87805
 - `FS2026-0500-0577`: Medion MD 87990
 - `FS2026-0500-0601`: Medion P85111 (MD 87295) [2017]
+- `FS2026-0500-0605`: HAMA DIR3500MCBT
 - `FS2026-0500-0612`: ALDI LIFE IWR 282
 - `FS2026-0500-0630`: Auna Harvard
 - `FS2026-0500-0631`: VR-Radio ZX-1680-675
@@ -145,6 +146,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 ### Venice X
 - `FS2340-0000-0006`: Grundig DKR 3000
+- `FS2340-0000-0024`: Philips TAPR802
 - `FS2340-0000-0025`: Hama DIT2006BT
 - `FS2340-0000-0061`: Blaupunkt Napoli (IRD 400)
 - `FS2340-0000-0082`: KENWOOD CR-ST100S-W [2021]
