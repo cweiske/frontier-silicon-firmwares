@@ -183,6 +183,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0531`: Kenwood M-9500S-B
 
 ### FS2415
+- `FS2415-0000-0286`: Makita DMR115 [2021]
 - `FS2415-0000-0323`: Technisat Nordmende Transita 30
 - `FS2415-0000-0374`: LeMega PR1
 - `FS2415-0000-0692`: Silvercrest 3W D4
@@ -281,6 +282,7 @@ DFU mode available on:
 - `FS2026-0500-0388`
 - `FS2026-0500-0653`
 - `FS2340-0000-0170`
+- `FS2415-0000-0286`
 
 DFU mode *not* available on:
 - `FS2026-0500-0286`
