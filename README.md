@@ -119,6 +119,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0710`: Medion MD 87805
 - `FS2026-0500-0723`: HAMA DIR3605MSBT
 - `FS2026-0500-0724`: HAMA DIR3505MSCBT [2019]
+- `FS2026-0500-0749`: LeMega M3i
 - `FS2026-0500-0770`: PEAQ PDR261BT-B [2019]
 - `FS2026-0500-0772`: Technisat DigitRadio 630
 - `FS2026-0500-0783`: Teufel Radio 3sixty [2020?]
