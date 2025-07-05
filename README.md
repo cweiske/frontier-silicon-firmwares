@@ -116,6 +116,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0653`: Technisat 120IR
 - `FS2026-0500-0659`: Sonoro STREAM SO-410, Firmware v2.x [2018] ([manual](https://sonoro.com/wp-content/uploads/2022/09/STREAM_SO-410_Operating_Manual_R1.7_6_languages_Rev1.6.pdf))
 - `FS2026-0500-0688`: Silvercrest SIRD 14 D1
+- `FS2026-0500-0703`: Grundig DTR 5000 (GIR1050)
 - `FS2026-0500-0710`: Medion MD 87805
 - `FS2026-0500-0723`: HAMA DIR3605MSBT
 - `FS2026-0500-0724`: HAMA DIR3505MSCBT [2019]
