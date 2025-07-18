@@ -197,6 +197,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS5332-0000-0060`: Blaupunkt PMR 100
 - `FS5332-0000-0082`: Blaupunkt MR 100
 - `FS5332-0000-0093`: HK Enchant 1300
+- `FS5332-0000-0096`: Terris CCM 283 multiroom speaker
 - `FS5332-0000-0119`: Blaupunkt PVA 100
 - `FS5332-0000-0128`: Marshall Stanmore Speaker
 
