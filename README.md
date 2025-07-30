@@ -182,6 +182,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0373`: Medion Life P85444 2.1 (MD89295) [2022]
 - `FS2340-0000-0374`: Medion MD89289 [2022]
 - `FS2340-0000-0407`: Kenwood CR-ST700SCD
+- `FS2340-0000-0483`: Soundmaster ICD4350SW [2024]
 - `FS2340-0000-0531`: Kenwood M-9500S-B
 
 ### FS2415
