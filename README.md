@@ -59,6 +59,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0115`: Hama HiFi Tuner DIT2000
 - `FS2026-0500-0127`: Noxon Nova M
 - `FS2026-0500-0138`: Sangean WFR-28
+- `FS2026-0500-0141`: Philips SW750M/12
 - `FS2026-0500-0142`: Medion Life P85044 (MD87180)
 - `FS2026-0500-0144`: Roberts Stream 10
 - `FS2026-0500-0150`: SilverCrest SIRD 14
