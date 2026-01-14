@@ -170,7 +170,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0176`: Pinell Supersound 101
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
 - `FS2340-0000-0194`: Kenwood M-7000S-B [2021]
-- `FS2340-0000-0195`: Kenwood M-9000S-B
+- `FS2340-0000-0195`: Kenwood M-9000S-B [2021]
 - `FS2340-0000-0275`: Majority Homerton 2
 - `FS2340-0000-0286`: JVC RA-E981B [2021]
 - `FS2340-0000-0293`: Auna iTurner CD [2022]
