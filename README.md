@@ -156,6 +156,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0082`: KENWOOD CR-ST100S-W [2021]
 - `FS2340-0000-0087`: Grundig DTR7000
 - `FS2340-0000-0093`: Philips TAR8805 [2020]
+- `FS2340-0000-0095`: Technisat Digitradio 570 CD IR
 - `FS2340-0000-0106`: Hama DIR355BT
 - `FS2340-0000-0117`: Philips TAM8905 [2020]
 - `FS2340-0000-0127`: Medion Life P85003 (MD 85008)
