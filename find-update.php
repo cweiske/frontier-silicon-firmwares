@@ -4,12 +4,13 @@
  * Check if an update exists for a frontier smart radio
  *
  * Radio ID:
- * ./download.php FS2026-0200-0048
- * ./download.php FS2340-0000-0095
- * ./download.php ir-mmi-FS2026-0200-0048
+ * ./find-update.php FS2026-0500-0612
+ * ./find-update.php FS2340-0000-0095
+ * ./find-update.php ir-mmi-FS2026-0500-0612
+ * ./find-update.php ir-cui-FS2340-0000-0095
  *
  * Radio ID + version:
- * ./download.php FS2026-0200-0048 V2.6.17c3.EX53330-V1.07
+ * ./download.php FS2026-0500-0612 2.12.21c.EX70178-1A27
  */
 
 list($module, $subModule, $device, $version) = handleCliArgs();
@@ -30,8 +31,13 @@ $updateInfoUrl = getUpdateInfoUrl($module, $subModule, $device, $version);
 echo "Update info URL:\n" . $updateInfoUrl . "\n\n";
 
 $updateDownloadUrl = getUpdateDownloadUrl($updateInfoUrl);
-echo "Update download URL:\n" . $updateDownloadUrl . "\n";
+if ($updateDownloadUrl !== null) {
+    echo "Update available!\n";
+    echo "Update download URL:\n" . $updateDownloadUrl . "\n";
+    exit(0);
+}
 
+echo "No update available\n";
 exit(0);
 
 /**
@@ -61,9 +67,22 @@ function getUpdateDownloadUrl($updateInfoUrl)
         error('Status code is not 200 but ' . $statusCode);
     }
 
-    echo "Unexpected response:\n\n";
-    var_dump($http_response_header);
-    echo $body . "\n";
+    //we cannot check for MIME type; it's always text/plain
+    $sx = simplexml_load_string(trim($body));
+    if ($sx === false) {
+        error(
+            "Unexpected response: Cannot parse XML\n\n"
+            . var_export($http_response_header, true)
+            .  $body
+        );
+    }
+
+    $url = $sx->software?->download ?? null;
+    if ($url !== null) {
+        return (string) $url;
+    } else {
+        return null;
+    }
 }
 
 /**
@@ -83,7 +102,7 @@ function getUpdateInfoUrl($module, $subModule, $device, $version)
     } elseif ($module == 'FS2340' && $subModule == '0000') {
         return 'https://update.wifiradiofrontier.com/sr/FindUpdate.aspx'
             . '?mac=0022616C4223'
-            . '&customisation=ir-mmi-' . $module . '-' . $subModule . '-' . $device
+            . '&customisation=ir-cui-' . $module . '-' . $subModule . '-' . $device
             . '&version=' . urlencode($version);
     }
 
