@@ -206,6 +206,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS5332-0000-0044`: Marshall Woburn MultiRoom [2017]
 - `FS5332-0000-0060`: Blaupunkt PMR 100
 - `FS5332-0000-0082`: Blaupunkt MR 100
+- `FS5332-0000-0092`: Harman Kardon Enchant 800
 - `FS5332-0000-0093`: HK Enchant 1300
 - `FS5332-0000-0096`: Terris CCM 283 multiroom speaker
 - `FS5332-0000-0119`: Blaupunkt PVA 100
@@ -455,4 +456,9 @@ https://nuv-isu-cdn.azureedge.net/srupdates/srupdates/<CUSTOMIZATION>/<CUSTOMIZA
 Example:
 ```
 https://nuv-isu-cdn.azureedge.net/nsupdates/nsupdates/ns-mmi-FS5332-0000-0082/ns-mmi-FS5332-0000-0082_1.7.8-18.ota.bin
+```
+
+2026-02: `nuv-isu-cdn` seems to be down. This works:
+```
+https://update.wifiradiofrontier.com/ns/Update.aspx?f=/nsupdates/ns-mmi-FS5332-0000-0092/ns-mmi-FS5332-0000-0092_1.4.12.1-14.ota.bin
 ```
