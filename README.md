@@ -194,6 +194,9 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2415-0000-0374`: LeMega PR1
 - `FS2415-0000-0692`: Silvercrest 3W D4
 
+### FS2445
+- `FS2445-0000-0496`: Technisat KIRA 1 (Digitradio 215) [2022]
+
 ### FS4444
 - `FS4444-0001-0007`: Pure Move 2500
 - `FS4444-0001-0036`: Pure Evoke H4
@@ -223,6 +226,7 @@ Name Parts:
 - `FS2052`: ?
 - `FS2340`: Venice X module ([brochure](https://www.frontiersmart.com/files/2021/10/Venice-X_PB.pdf))
 - `FS2415`: ?
+- `FS2445`: Siena module ([brochure](https://www.frontiersmart.com/wp-content/uploads/2021/10/Siena-PB_0.pdf))
 - `FS4444`: No Venice module, but [single Frontier Smart chips](https://www.rundfunkforum.de/viewtopic.php?t=55591&start=345)
 - `FS5332`: Minuet module ([Product brief](ns-mmi-FS5332-0000-0007_1.3.18-43), [copy](https://fccid.io/YYX-FS5332/Test-Setup-Photos/Minuet-PB-3099884.pdf))
 
