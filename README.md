@@ -218,17 +218,19 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 Name Parts:
 
+- `FS1445`: KINO4 ([Product brief](documents/FS1445/Kino4_PB_1.pdf), [source](https://www.frontiersmart.com/wp-content/uploads/2021/10/Kino4_PB_1.pdf))
 - `FS2026`: Venice 6 module
   - `0200`: Venice 6.2
-  - `0500`: Venice 6.5 ([Product brief](https://fccid.io/YYX-HA-FS2026-F5/Users-Manual/Venice-6-5-PB-1813231.pdf))
-- `FS2027`: ?
-- `FS2028`: ?
-- `FS2052`: ?
-- `FS2340`: Venice X module ([brochure](https://www.frontiersmart.com/files/2021/10/Venice-X_PB.pdf))
-- `FS2415`: ?
-- `FS2445`: Siena module ([brochure](https://www.frontiersmart.com/wp-content/uploads/2021/10/Siena-PB_0.pdf))
+  - `0500`: Venice 6.5 ([Product brief](documents/FS2026/Venice-6-5-PB-1813231.pdf), [source](https://fccid.io/YYX-HA-FS2026-F5/Users-Manual/Venice-6-5-PB-1813231.pdf))
+- `FS2027`: Venice 7
+- `FS2028`: Venice 8
+- `FS2052`: Verona ([Product brief](documents/FS2052/Verona_PB.pdf), [source](https://www.df7sx.de/wp-content/uploads/2014/08/Verona_PB.pdf))
+- `FS2230`: Tuscany ([Product brief](documents/FS2230/Tuscany-PB-2230.pdf), [source](https://www.electronicsdatasheets.com/download/52b3220de34e24a51da61d1a.pdf?format=pdf))
+- `FS2340`: Venice X module ([brochure](documents/FS2340/Venice-X_PB.pdf), [source](https://www.frontiersmart.com/files/2021/10/Venice-X_PB.pdf))
+- `FS2415`: Siena module ([brochure](documents/FS2415/Siena-PB_0.pdf), [source](https://www.frontiersmart.com/wp-content/uploads/2021/10/Siena-PB_0.pdf))
+- `FS2445`: Verona 2 (using FS1445 SOC)
 - `FS4444`: No Venice module, but [single Frontier Smart chips](https://www.rundfunkforum.de/viewtopic.php?t=55591&start=345)
-- `FS5332`: Minuet module ([Product brief](ns-mmi-FS5332-0000-0007_1.3.18-43), [copy](https://fccid.io/YYX-FS5332/Test-Setup-Photos/Minuet-PB-3099884.pdf))
+- `FS5332`: Minuet module ([Product brief](documents/FS5332/Minuet-PB-3099884.pdf), [source](https://fccid.io/YYX-FS5332/Test-Setup-Photos/Minuet-PB-3099884.pdf))
 
 Very old models:
 - `arts.ven6-jupiter6`: Venice 6 module, FS1020G Chorus2 SoC ([Product brief](documents/FS1020/Chorus2_PB.pdf))
