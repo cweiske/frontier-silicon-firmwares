@@ -18,7 +18,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 ### Venice 6
 - ? `arts.ven6-jupiter6.1`: Tevion IWR 294 (2009)
 
-### Venice 6.2
+### FS2026 Venice 6.2
 - `FS2026-0200-0048`: Roberts Stream 83i
 - `FS2026-0200-0052`: Revival iStream
 - `FS2026-0200-0059`: Muvid IR 615
@@ -30,7 +30,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0200-0328`: Sangean DDR-62
 - `FS2026-0200-0329`: Lenco IR-2002
 
-### Venice 6.5
+### FS2026 Venice 6.5
 - `FS2026-0500-0015`: Pinell Supersound II
 - `FS2026-0500-0020`: Renkforce IR-1600
 - `FS2026-0500-0027`: Medion Life P85023 (MD 86891)
@@ -133,22 +133,22 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0841`: Kathrein DAB+ 10 tower
 - `FS2026-0500-0864`: Technisat Imperial Dabman i550CD [2021]
 
-### Venice 6.6 (?)
+### FS2026 Venice 6.6 (?)
 - `FS2026-0600-0002`: Hama IT900MBT [2019] ([manual](https://de.hama.com/webresources/article-documents/00054/man/00054861man_cs_da_de_el_en_es_fi_fr_hu_it_nl_no_pl_pt_ro_ru_sk_sv_tr.pdf))
 
-### FS2027
+### FS2027 Venice 7
 - `FS2027-0000-0358`: Philips AE9011/02
 
-### FS2028
+### FS2028 Venice 8
 - `FS2028-0000-0016`: Revo Axis
 - `FS2028-0000-0032`: ALDI MD 86250
 - `FS2028-0100-0002`: Albrecht DR 333
 
-### FS2052
+### FS2052 Verona
 - `FS2052-0000-0297`: John Lewis Spectrum DAB Radio
 - `FS2052-0000-0639`: Roberts SportsDAB 5
 
-### Venice X
+### FS2340 Venice X
 - `FS2340-0000-0006`: Grundig DKR 3000
 - `FS2340-0000-0024`: Philips TAPR802
 - `FS2340-0000-0025`: Hama DIT2006BT
@@ -188,13 +188,13 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0483`: Soundmaster ICD4350SW [2024]
 - `FS2340-0000-0531`: Kenwood M-9500S-B
 
-### FS2415
+### FS2415 Siena
 - `FS2415-0000-0286`: Makita DMR115 [2021]
 - `FS2415-0000-0323`: Technisat Nordmende Transita 30
 - `FS2415-0000-0374`: LeMega PR1
 - `FS2415-0000-0692`: Silvercrest 3W D4
 
-### FS2445
+### FS2445 Verona 2
 - `FS2445-0000-0496`: Technisat KIRA 1 (Digitradio 215) [2022]
 
 ### FS4444
@@ -203,7 +203,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS4444-0001-0075`: Denver DAB-36 [2024]
 - `FS4444-0001-0128`: Panasonic RF-D10EG-W
 
-### Minuet
+### FS5332 Minuet
 - `FS5332-0000-0007`: JBL Playlist 150
 - `FS5332-0000-0024`: Blaupunkt MR 50 BK
 - `FS5332-0000-0044`: Marshall Woburn MultiRoom [2017]
@@ -216,12 +216,13 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS5332-0000-0128`: Marshall Stanmore Speaker
 
 
-Name Parts:
+## Known chipsets
 
 - `FS1445`: KINO4 ([Product brief](documents/FS1445/Kino4_PB_1.pdf), [source](https://www.frontiersmart.com/wp-content/uploads/2021/10/Kino4_PB_1.pdf))
 - `FS2026`: Venice 6 module
   - `0200`: Venice 6.2
   - `0500`: Venice 6.5 ([Product brief](documents/FS2026/Venice-6-5-PB-1813231.pdf), [source](https://fccid.io/YYX-HA-FS2026-F5/Users-Manual/Venice-6-5-PB-1813231.pdf))
+  - `0600`: Venice 6.6 (?)
 - `FS2027`: Venice 7
 - `FS2028`: Venice 8
 - `FS2052`: Verona ([Product brief](documents/FS2052/Verona_PB.pdf), [source](https://www.df7sx.de/wp-content/uploads/2014/08/Verona_PB.pdf))
