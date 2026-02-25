@@ -231,7 +231,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 - `FS2026-2`: Venice 6.2 [2008] (using FS1020) ([Product brief](documents/FS2026/Venice6.2_PB.pdf), [source](http://www.popular-hifi.com/shack/acc_vooni/Venice6.2_PB.pdf))
 - `FS2026-5`: Venice 6.5 [2012] (using FS1230) ([Product brief](documents/FS2026/Venice-6-5-PB-1813231.pdf), [source](https://fccid.io/YYX-HA-FS2026-F5/Users-Manual/Venice-6-5-PB-1813231.pdf))
-- `0600`: Venice 6.6 (?)
+- `FS2026-6`: Venice 6.6 (?)
 - `FS2027A`: Venice 7A [2013] (using FS1235) ([Product brief](documents/FS2027/venice-7.pdf), [source](https://www.docdroid.net/U1xu64T/venice-7-pdf))
 - `FS2028`: Venice 8 [2011] (using FS1230) ([Product brief](documents/FS2028/venice-8.pdf), [source](https://www.electronicsdatasheets.com/download/52b3220de34e24a51da61d1e.pdf?format=pdf))
 - `FS2052`: Verona [2010] (using FS1235) ([Product brief](documents/FS2052/Verona_PB.pdf), [source](https://www.df7sx.de/wp-content/uploads/2014/08/Verona_PB.pdf))
