@@ -218,25 +218,34 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS5332-0000-0128`: Marshall Stanmore Speaker
 
 
-## Known chipsets
+## Known SOCs
 
+- `FS1020`: Chorus 2 [2006] ([Product brief](documents/FS1020/Chorus2_PB.pdf))
+- `FS1230`: Chorus 3 [2009] ([Product brief](documents/FS1230/Chorus3_PB.pdf), [source](https://www.electronicsdatasheets.com/download/52b3220de34e24a51da61d02.pdf?format=pdf))
+- `FS1235`: Kino 3
+- `FS1440`: Chorus 4
 - `FS1445`: KINO4 [2019] ([Product brief](documents/FS1445/Kino4_PB_1.pdf), [source](https://www.frontiersmart.com/wp-content/uploads/2021/10/Kino4_PB_1.pdf))
-- `FS2026`: Venice 6
-  - `0200`: Venice 6.2 [2009] ([Product brief](documents/FS2026/Venice6.2_PB.pdf), [source](http://www.popular-hifi.com/shack/acc_vooni/Venice6.2_PB.pdf))
-  - `0500`: Venice 6.5 [2012] ([Product brief](documents/FS2026/Venice-6-5-PB-1813231.pdf), [source](https://fccid.io/YYX-HA-FS2026-F5/Users-Manual/Venice-6-5-PB-1813231.pdf))
-  - `0600`: Venice 6.6 (?)
-- `FS2027`: Venice 7A [2013] ([Product brief](documents/FS2027/venice-7.pdf), [source](https://www.docdroid.net/U1xu64T/venice-7-pdf))
-- `FS2028`: Venice 8 [2011] ([Product brief](documents/FS2028/venice-8.pdf), [source](https://www.electronicsdatasheets.com/download/52b3220de34e24a51da61d1e.pdf?format=pdf))
-- `FS2052`: Verona [2010] ([Product brief](documents/FS2052/Verona_PB.pdf), [source](https://www.df7sx.de/wp-content/uploads/2014/08/Verona_PB.pdf))
-- `FS2230`: Tuscany [2013] ([Product brief](documents/FS2230/Tuscany-PB-2230.pdf), [source](https://www.electronicsdatasheets.com/download/52b3220de34e24a51da61d1a.pdf?format=pdf))
-- `FS2340`: Venice X [2019] ([brochure](documents/FS2340/Venice-X_PB.pdf), [source](https://www.frontiersmart.com/files/2021/10/Venice-X_PB.pdf))
-- `FS2415`: Siena [2019] ([brochure](documents/FS2415/Siena-PB_0.pdf), [source](https://www.frontiersmart.com/wp-content/uploads/2021/10/Siena-PB_0.pdf))
-- `FS2445`: Verona 2 (using FS1445 SOC)
+
+
+## Known modules/chipsets
+
+- `FS2026-2`: Venice 6.2 [2008] (using FS1020) ([Product brief](documents/FS2026/Venice6.2_PB.pdf), [source](http://www.popular-hifi.com/shack/acc_vooni/Venice6.2_PB.pdf))
+- `FS2026-5`: Venice 6.5 [2012] (using FS1230) ([Product brief](documents/FS2026/Venice-6-5-PB-1813231.pdf), [source](https://fccid.io/YYX-HA-FS2026-F5/Users-Manual/Venice-6-5-PB-1813231.pdf))
+- `0600`: Venice 6.6 (?)
+- `FS2027A`: Venice 7A [2013] (using FS1235) ([Product brief](documents/FS2027/venice-7.pdf), [source](https://www.docdroid.net/U1xu64T/venice-7-pdf))
+- `FS2028`: Venice 8 [2011] (using FS1230) ([Product brief](documents/FS2028/venice-8.pdf), [source](https://www.electronicsdatasheets.com/download/52b3220de34e24a51da61d1e.pdf?format=pdf))
+- `FS2052`: Verona [2010] (using FS1235) ([Product brief](documents/FS2052/Verona_PB.pdf), [source](https://www.df7sx.de/wp-content/uploads/2014/08/Verona_PB.pdf))
+- `FS2230`: Tuscany [2013] (using FS1235) ([Product brief](documents/FS2230/Tuscany-PB-2230.pdf), [source](https://www.electronicsdatasheets.com/download/52b3220de34e24a51da61d1a.pdf?format=pdf))
+- `FS2260`: MAGIC X [2025] (using FS1445) ([Product brief](documents/FS2260/Magic-X_PB-1.pdf), [source](https://www.frontiersmart.com/wp-content/uploads/2023/05/Magic-X_PB-1.pdf])
+- `FS2340`: Venice X [2019] (using FS1440) ([brochure](documents/FS2340/Venice-X_PB.pdf), [source](https://www.frontiersmart.com/files/2021/10/Venice-X_PB.pdf))
+- `FS2345`: Auria [2025] (using FS1440) ([Product brief](documents/FS2345/Auria_PB-5.pdf), [source](https://www.frontiersmart.com/wp-content/uploads/2023/09/Auria_PB-5.pdf])
+- `FS2415`: Siena [2019] (using FS1445) ([brochure](documents/FS2415/Siena-PB_0.pdf), [source](https://www.frontiersmart.com/wp-content/uploads/2021/10/Siena-PB_0.pdf))
+- `FS2445`: Verona 2 (using FS1445)
 - `FS4444`: No Venice module, but [single Frontier Smart chips](https://www.rundfunkforum.de/viewtopic.php?t=55591&start=345)
 - `FS5332`: Minuet module [2015] ([Product brief](documents/FS5332/Minuet-PB-3099884.pdf), [source](https://fccid.io/YYX-FS5332/Test-Setup-Photos/Minuet-PB-3099884.pdf))
 
 Very old models:
-- `arts.ven6-jupiter6`: Venice 6 module, FS1020G Chorus2 SoC ([Product brief](documents/FS1020/Chorus2_PB.pdf)), 2006
+- `arts.ven6-jupiter6`: Venice 6 module (using FS1020)
 
 Initial list of names taken from
 http://iradioforum.net/forum/index.php?topic=2099.msg18986#msg18986
