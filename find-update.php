@@ -10,7 +10,7 @@
  * ./find-update.php ir-cui-FS2340-0000-0095
  *
  * Radio ID + version:
- * ./download.php FS2026-0500-0612 2.12.21c.EX70178-1A27
+ * ./find-update.php FS2026-0500-0612 2.12.21c.EX70178-1A27
  */
 
 list($module, $subModule, $device, $version) = handleCliArgs();
@@ -164,6 +164,25 @@ function findVersion($module, $subModule, $device)
 
 function handleCliArgs()
 {
+    if ($GLOBALS['argv'][1] == '-h' || $GLOBALS['argv'][1] == '--help') {
+        fwrite(
+            STDOUT, <<<TXT
+            Usage:
+
+            Radio ID:
+                ./find-update.php FS2026-0500-0612
+                ./find-update.php FS2340-0000-0095
+                ./find-update.php ir-mmi-FS2026-0500-0612
+                ./find-update.php ir-cui-FS2340-0000-0095
+
+            Radio ID + version:
+                ./find-update.php FS2026-0500-0612 2.12.21c.EX70178-1A27
+
+            TXT
+        );
+        exit(0);
+    }
+
     $customization = $GLOBALS['argv'][1] ?? null;
     $version       = $GLOBALS['argv'][2] ?? null;
 
