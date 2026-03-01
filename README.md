@@ -150,6 +150,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 ### FS2340 Venice X
 - `FS2340-0000-0006`: Grundig DKR 3000
+- `FS2340-0000-0013`: Grundig CMS 5000 [2021]
 - `FS2340-0000-0024`: Philips TAPR802
 - `FS2340-0000-0025`: Hama DIT2006BT
 - `FS2340-0000-0056`: Technisat Viola 2 C IR [2020]
