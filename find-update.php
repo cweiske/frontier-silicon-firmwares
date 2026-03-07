@@ -164,7 +164,9 @@ function findVersion($module, $subModule, $device)
 
 function handleCliArgs()
 {
-    if ($GLOBALS['argv'][1] == '-h' || $GLOBALS['argv'][1] == '--help') {
+    if (!isset($GLOBALS['argv'][1])
+        || $GLOBALS['argv'][1] == '-h' || $GLOBALS['argv'][1] == '--help'
+    ) {
         fwrite(
             STDOUT, <<<TXT
             Usage:
