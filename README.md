@@ -174,6 +174,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
 - `FS2340-0000-0194`: Kenwood M-7000S-B [2021]
 - `FS2340-0000-0195`: Kenwood M-9000S-B [2021]
+- `FS2340-0000-0250`: Technisat Digitradio 574 IR [2023]
 - `FS2340-0000-0275`: Majority Homerton 2
 - `FS2340-0000-0286`: JVC RA-E981B [2021]
 - `FS2340-0000-0293`: Auna iTurner CD [2022]
@@ -209,6 +210,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 ### FS5332 Minuet
 - `FS5332-0000-0007`: JBL Playlist 150
+- `FS5332-0000-0016`: Cambridge Audio Yoyo (L) [2018]
 - `FS5332-0000-0024`: Blaupunkt MR 50 BK
 - `FS5332-0000-0044`: Marshall Woburn MultiRoom [2017]
 - `FS5332-0000-0060`: Blaupunkt PMR 100
