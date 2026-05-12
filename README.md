@@ -87,6 +87,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0309`: Technisat DigitRadio 600
 - `FS2026-0500-0310`: Hama HiFi Tuner DIT2010
 - `FS2026-0500-0328`: Blaupunkt IRD 30
+- `FS2026-0500-0340`: Hama DIR3120 oLED [2016]
 - `FS2026-0500-0364`: Roberts RS1
 - `FS2026-0500-0373`: Hama DIR3100
 - `FS2026-0500-0379`: Medion P85105 (MD 87505) [2016]
