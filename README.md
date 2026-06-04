@@ -94,6 +94,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0388`: Silvercrest SIRD 14C2
 - `FS2026-0500-0407`: Hama DIT2000M
 - `FS2026-0500-0408`: Hama DIT1000MBT
+- `FS2026-0500-0439`: Technisat Technisound MR2
 - `FS2026-0500-0442`: Auna Connect CD
 - `FS2026-0500-0445`: Technisat DigitRadio 140
 - `FS2026-0500-0452`: ALDI LIFE IWR 271
@@ -302,6 +303,10 @@ shown:
 > FILE CHECK FAILED
 
 Uploading a prepared `.sap.bin` file (see above) will probably work.
+
+Firmware upload available on:
+- `FS2026-0500-0439`
+- `FS2026-0500-0487`
 
 
 ### dfu-util
