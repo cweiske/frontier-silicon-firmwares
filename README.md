@@ -107,6 +107,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0499`: Albrecht DR 890 CD Internetradio
 - `FS2026-0500-0517`: Silvercrest SIRD 14 C3
 - `FS2026-0500-0522`: Hama DIR3100MS
+- `FS2026-0500-0524`: Hama IR360MBT
 - `FS2026-0500-0528`: Hama IR350
 - `FS2026-0500-0549`: Medion MD 87805
 - `FS2026-0500-0577`: Medion MD 87990
@@ -137,6 +138,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 ### FS2026 Venice 6.6 (?)
 - `FS2026-0600-0002`: Hama IT900MBT [2019] ([manual](https://de.hama.com/webresources/article-documents/00054/man/00054861man_cs_da_de_el_en_es_fi_fr_hu_it_nl_no_pl_pt_ro_ru_sk_sv_tr.pdf))
+- `FS2026-0600-0003`: Hama IR40MBT
 
 ### FS2027 Venice 7
 - `FS2027-0000-0358`: Philips AE9011/02
