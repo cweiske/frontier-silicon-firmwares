@@ -94,6 +94,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0388`: Silvercrest SIRD 14C2
 - `FS2026-0500-0407`: Hama DIT2000M
 - `FS2026-0500-0408`: Hama DIT1000MBT
+- `FS2026-0500-0435`: TechniSat AudioMaster MR1
 - `FS2026-0500-0439`: Technisat Technisound MR2
 - `FS2026-0500-0442`: Auna Connect CD
 - `FS2026-0500-0445`: Technisat DigitRadio 140
