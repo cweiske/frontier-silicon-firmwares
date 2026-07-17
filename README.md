@@ -121,6 +121,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0643`: Ruark Audio MRx
 - `FS2026-0500-0653`: Technisat 120IR
 - `FS2026-0500-0659`: Sonoro STREAM SO-410, Firmware v2.x [2018] ([manual](https://sonoro.com/wp-content/uploads/2022/09/STREAM_SO-410_Operating_Manual_R1.7_6_languages_Rev1.6.pdf))
+- `FS2026-0500-0682`: Revo SuperCD
 - `FS2026-0500-0688`: Silvercrest SIRD 14 D1
 - `FS2026-0500-0703`: Grundig DTR 5000 (GIR1050)
 - `FS2026-0500-0710`: Medion MD 87805
@@ -194,6 +195,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0373`: Medion Life P85444 2.1 (MD89295) [2022]
 - `FS2340-0000-0374`: Medion MD89289 [2022]
 - `FS2340-0000-0407`: Kenwood CR-ST700SCD
+- `FS2340-0000-0412`: Ruark R3S
 - `FS2340-0000-0415`: Ruark R1S
 - `FS2340-0000-0483`: Soundmaster ICD4350SW [2024]
 - `FS2340-0000-0531`: Kenwood M-9500S-B
