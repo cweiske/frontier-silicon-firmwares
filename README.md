@@ -208,6 +208,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 
 ### FS2445 Verona 2
 - `FS2445-0000-0496`: Technisat KIRA 1 (Digitradio 215) [2022]
+- `FS2445-0000-0594`: John Lewis Note DAB Radio (Yellow)
 
 ### FS4444
 - `FS4444-0001-0007`: Pure Move 2500
