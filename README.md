@@ -199,6 +199,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0415`: Ruark R1S
 - `FS2340-0000-0483`: Soundmaster ICD4350SW [2024]
 - `FS2340-0000-0531`: Kenwood M-9500S-B
+- `FS2340-0000-0572`: Grundig DTR 7100 (GTR1200)
 
 ### FS2415 Siena
 - `FS2415-0000-0286`: Makita DMR115 [2021]
