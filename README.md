@@ -66,7 +66,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2026-0500-0162`: Revo Pixis RX
 - `FS2026-0500-0178`: Philips AE800
 - `FS2026-0500-0191`: Digitradio 110IR7
-- `FS2026-0500-0212`: Auna Connect 150
+- `FS2026-0500-0212`: Auna Connect 150 (10028153, 10028154, 10030437) [2019] ([manual](https://www.bedienungsanleitung24.de/anleitung/1/7651/bedienanleitung-pdf))
 - `FS2026-0500-0213`: Tiny Audio M7+
 - `FS2026-0500-0214`: Denver IR100
 - `FS2026-0500-0224`: Auna KR-200 [2015]
@@ -180,6 +180,7 @@ Blog post: https://cweiske.de/tagebuch/frontier-firmware-dl.htm
 - `FS2340-0000-0177`: Hama DIR3300SBT [2019]
 - `FS2340-0000-0194`: Kenwood M-7000S-B [2021]
 - `FS2340-0000-0195`: Kenwood M-9000S-B [2021]
+- `FS2340-0000-0230`: Auna Connect MKII (10037493, 10037494, 10037495) [2023] ([manual](https://res.cloudinary.com/chal-tec/image/upload/bbg/10037493/bda/10037493_BDA_DE-EN-ES-FR-IT.pdf))
 - `FS2340-0000-0250`: Technisat Digitradio 574 IR [2023]
 - `FS2340-0000-0275`: Majority Homerton 2
 - `FS2340-0000-0286`: JVC RA-E981B [2021]
@@ -297,6 +298,9 @@ which in hex is
 69 72 2D 63 75 69 2D 46 53 32 33 34 30
 ```
 
+The 16 bytes at offset `0x40` of the `.isu.bin` header are the MD5
+of the resulting `.sap.bin`, so the cut can be verified.
+
 
 ### Web interface
 Some radios (e.g. `FS2026-0500-0487`) have a firmware upload form
@@ -332,6 +336,7 @@ DFU mode available on:
 - `FS2026-0500-0388`
 - `FS2026-0500-0653`
 - `FS2340-0000-0170`
+- `FS2340-0000-0230` (USB ID `10a4:c2e6`)
 - `FS2415-0000-0286`
 
 DFU mode *not* available on:
@@ -343,16 +348,19 @@ At first, the `.isu.bin` must be converted to a `.sap.bin` update file - see abo
 Steps to flash new firmware:
 
 1. Radio must show "Waiting for PC wizard"
-2. Connect radio to PC via USB
+2. Connect radio to PC via USB male-to-male cable
 3. Check that the radio is found with `dfu-util -l`
 4. Upload firmware to radio: `dfu-util -d 10a4:bf8d -U myfirmware.sap.bin`
+
+On Windows you may have to install the WinUSB driver,
+e.g via [Zadig](https://zadig.akeo.ie/).
 
 
 ### FS2340: Recover "Waiting for PC wizard" using dfu-util
 A user reported success in repairing a non-working radio using `dfu-util`.
 The radio was not booting normally and just showed "Waiting for PC wizard".
 
-1. Attach radio via regular USB cable
+1. Attach radio via USB male-to-male cable
   ```
   dfu-util -l
   Found DFU: [10a4:c2aa] ver=0000, devnum=1, cfg=1, intf=0, path="0-1", alt=0, name="UNKNOWN", serial="00000001"
@@ -364,6 +372,9 @@ The radio was not booting normally and just showed "Waiting for PC wizard".
 6. Upload firmware to radio: `dfu-util -D ir-cui-FS2340-0000-0170_V4.5.7.e518da-1A10.sap.bin`
 
 After turning the radio off and on again, it booted correctly.
+
+Note: Just one flipped bit in the firmware can lead to the "Waiting for PC wizard" error.
+
 
 ### Chip flashing
 A user reports that he downloaded the firmware from his non-working radio
